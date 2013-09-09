@@ -1,0 +1,10 @@
+Dies ist eine Codesammlung für Atmels AVR Mikrocontroller. Zu keinem Zeitpunkt wird vollständigkeit oder Richtigkeit Garantiert.
+
+Im Moment sind folgende Inhalte vorhanden:
+- spi/	Funktionssammlung für den SPI auf einem ATMega8
+
+----
+This is a collection of code I have written for atmel's AVR MCU's. At no time, any guarantees are made.
+
+At the moment, following contents are present:
+- spi/	A collection for the SPI on a ATMega8
