@@ -64,11 +64,7 @@ void spi_slave_init(char mode, char* receive_buffer, uint8_t receive_buffer_leng
 	Spi_Receive_Buffer = receive_buffer;
 	Spi_Receive_Buffer_Size = receive_buffer_length;
 }
-/* 
- * Read the SPI-DATA
- * FF in the HIGH-Byte Means: No Data
- * 00 in the High-Byte Means: Everything ok
- */ 
+
 uint16_t spi_slave_read(){
 	if (Spi_Read_Position == Spi_Write_Position) {
 		return 0xFFFF; 
